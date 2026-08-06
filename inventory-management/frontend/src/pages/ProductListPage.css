@@ -1,0 +1,70 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  flex: 2;
+  min-width: 200px;
+}
+
+.supplier-select {
+  flex: 1;
+  min-width: 150px;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d1d5db;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #d1d5db;
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.data-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+/* Low stock alert highlighting (< 5 quantity) */
+.low-stock-row {
+  background-color: #fee2e2 !important;
+}
+
+.low-stock-badge {
+  color: #ef4444;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.product-thumbnail {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+}
+
+.actions-cell {
+  display: flex;
+  gap: 5px;
+}

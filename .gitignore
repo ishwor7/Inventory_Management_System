@@ -1,0 +1,8 @@
+node_modules/
+database.sqlite
+uploads/*
+!uploads/.gitkeep
+.env
+dist/
+.DS_Store
+PROJECT_GUIDE_AND_VIVA_PREP.md

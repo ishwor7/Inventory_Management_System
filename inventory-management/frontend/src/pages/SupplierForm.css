@@ -1,0 +1,10 @@
+.supplier-form-card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.supplier-form-card h2 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 10px;
+}

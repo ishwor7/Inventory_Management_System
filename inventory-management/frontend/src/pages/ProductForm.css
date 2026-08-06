@@ -1,0 +1,22 @@
+.form-card {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-card h2 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 10px;
+}
+
+.current-image-preview {
+  margin-top: 10px;
+}
+
+.current-image-preview img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+}
