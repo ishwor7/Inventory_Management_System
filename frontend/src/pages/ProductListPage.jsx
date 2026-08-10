@@ -130,7 +130,7 @@ const ProductListPage = () => {
                           />
                         </td>
                         <td>{product.name}</td>
-                        <td>${Number(product.price).toFixed(2)}</td>
+                        <td>Rs.{Number(product.price).toFixed(2)}</td>
                         <td>
                           {product.quantity}
                           {isLowStock && <span className="low-stock-badge"> (Low)</span>}

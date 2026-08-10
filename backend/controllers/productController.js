@@ -1,6 +1,6 @@
 const { Product, Supplier } = require('../models');
 
-// Get all products (with optional search and supplier filter)
+// Get all products 
 exports.getAllProducts = async (req, res) => {
   try {
     const products = await Product.findAll({

@@ -152,7 +152,7 @@ const EditProductPage = () => {
             </div>
 
             <div className="form-group">
-              <label htmlFor="price">Price ($) *</label>
+              <label htmlFor="price">Price (Rs.) *</label>
               <input
                 type="number"
                 id="price"

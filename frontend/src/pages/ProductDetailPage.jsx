@@ -66,7 +66,7 @@ const ProductDetailPage = () => {
             </div>
             <div className="detail-info">
               <p><strong>Description:</strong> {product.description}</p>
-              <p><strong>Price:</strong> ${Number(product.price).toFixed(2)}</p>
+              <p><strong>Price:</strong> Rs.{Number(product.price).toFixed(2)}</p>
               <p><strong>Quantity:</strong> {product.quantity}</p>
               <p><strong>Supplier Name:</strong> {product.Supplier ? product.Supplier.name : 'N/A'}</p>
             </div>
